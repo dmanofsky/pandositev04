@@ -1,14 +1,16 @@
 body {
-  font-family: 'museo-sans', sans-serif !important; }
+  font-family: 'museo-sans', sans-serif !important;
+  font-size: 1.2rem !important; }
 
 h1 {
-  font-weight: 900; }
+  font-weight: 900 !important; }
 
 h2 {
-  font-weight: 900; }
+  font-weight: 900 !important; }
 
 p {
-  font-weight: 100; }
+  font-weight: 100 !important;
+  font-size: 1.125rem !important; }
 
 .bwimage {
   -webkit-filter: grayscale(100%);
@@ -25,8 +27,8 @@ p {
 
 .icon-circle {
   margin: auto;
-  width: 175px;
-  height: 175px;
+  width: 165px;
+  height: 165px;
   line-height: 175px; }
 
 .img-special {
@@ -35,6 +37,10 @@ p {
   max-height: 300px;
   width: auto;
   height: auto; }
+
+.navbar-toggler {
+  color: #736D6D !important;
+  border: none !important; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
