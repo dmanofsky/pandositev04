@@ -17,7 +17,8 @@ $body-bg: #ffffff;
 
 body {
   font-family: 'museo-sans', sans-serif !important;
-  font-size: 1.2rem !important; }
+  font-size: 1.2rem !important;
+  font-weight: 500 !important; }
 
 h1 {
   font-weight: 900 !important; }
@@ -58,14 +59,15 @@ p {
   width: auto;
   height: auto; }
 
-  .navbar-lights {
-    
-}
-
 .navbar-toggler {
   color: #736D6D !important;
   border: none !important;
   }
+
+.nav-link {
+  letter-spacing: .05em !important;
+  font-weight: 900 !important;
+}
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
