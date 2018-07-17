@@ -42,6 +42,10 @@ p {
   font-family:"museo"; 
   border-width: 2px !important; }
 
+.btn-lg {
+    font-family:"museo"; 
+    border-width: 2px !important; }
+
 .bg-cover {
   background: url("../assets/images/pexels-photo-422218-crop1-bw2-teal-darker.jpg") no-repeat center center;
   background-size: cover;
@@ -73,6 +77,9 @@ p {
   letter-spacing: .05em !important;
   font-weight: 900 !important;
 }
+
+.pt-6 {
+  padding-top: 110px; }
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";

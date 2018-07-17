@@ -14,43 +14,45 @@
         <!-- css -->
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="/css/styles.css">
-      </head>
 
-    <body>
+        <!-- javascript -->
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/icons/favicon/site.webmanifest">
+        <link rel="mask-icon" href="assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="Pando Nutrition">
+        <meta name="application-name" content="Pando Nutrition">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar">
         <!-- navigation bar-->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white py-0 px-5">
             <div class="container">
-                <a class="navbar-brand p-0 m-0" href="https://www.pandonutrition.com"><img src="assets/logos/color@0.5x.png" alt="Generic placeholder image" height="120"></a>
+                <a class="navbar-brand p-0 m-0" href="https://www.pandonutrition.com"><img src="assets/logos/color@0.5x.png" alt="Generic placeholder image" height="110"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto py-3">
+                    <ul class="nav nav-pills ml-auto py-3">
                         <li class="nav-item">
-                            <a class="nav-link float-right text-primary" href="https://www.pandonutrition.com">Home</a>
+                            <a class="nav-link float-right" href="#benefits">Benefits</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link float-right text-primary" href="mailto:info@pandonutrition.com">Benefits</a>
+                            <a class="nav-link float-right " href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link float-right text-primary" href="mailto:info@pandonutrition.com">Features</a>
+                            <a class="nav-link float-right" href="#team">Team</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link float-right text-primary" href="mailto:info@pandonutrition.com">Team</a>
-                        </li>
-                        <!--<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" data-toggle="dropdown">
-                                Products
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item text-primary" href="#">Product 1</a>
-                                <a class="dropdown-item text-primary" href="#">Product 2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-primary" href="#">Another Product</a>
-                            </div>
-                        </li>-->
-                        <li class="nav-item my-auto">
-                                <a class="btn btn-warning float-right" href="mailto:info@pandonutrition.com" role="button">Contact Us</a>
+                        <li class="nav-item ">
+                            <a class="nav-link float-right" href="mailto:info@pandonutrition.com" role="button">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -59,19 +61,18 @@
         <!-- main -->
         <main role="main">    
             <!-- jumbotron -->
-            <div class="jumbotron bg-secondary jumbotron-fluid">
+            <div class="jumbotron bg-secondary jumbotron-fluid m-0">
                 <div class="container">
                     <h1 class="text-white">FEED YEAST 2.0</h1>
                     <h5 class="text-white mb-4">Pando Nutrition is engineering the next generation of yeast-based solutions for animal feed manufacturers.</h5>
-                    <p class="lead">
-                        <a class="btn btn-outline-warning btn-lg" href="mailto:info@pandonutrition.com" role="button">Learn More</a>
-                        <a class="btn btn-warning btn-lg" href="mailto:info@pandonutrition.com" role="button">Contact Us</a>
-                    </p>
+                    <a class="btn btn-outline-warning btn-lg mx-1" href="#benefits" role="button">Learn More</a>
+                    <a class="btn btn-warning btn-lg mx-1" href="mailto:info@pandonutrition.com" role="button">Contact Us</a>
                 </div>
             </div>
-            <!-- triple icons -->
-            <div class="container">
-                <h1 class="text-primary m-5 text-center">BENEFITS</h1>
+            <!-- scrollspy start -->
+            <div class="container" data-spy="scroll" data-target=".navbar" data-offset="500">
+                <!-- benefits -->
+                <h1 id="benefits" class="text-primary text-center" data-offset="110" style="padding-top:110px;margin-top:-40px;margin-bottom:40px">BENEFITS</h1>
                 <div class="row bg-white">
                     <div class="col-lg-4 text-center">
                         <div class="icon-circle rounded-circle bg-secondary mb-3" >
@@ -95,10 +96,10 @@
                         <p class="text-tertiary">Essential nutrients promote health and growth.</p>
                     </div><!-- /.col-lg-4 -->
                 </div>
-                <hr class="featurette-divider my-5">
                 <!--divider-->
-                <h1 class="text-primary m-5 text-center">FEATURES</h1>
-                <!-- row featurettes -->
+                <hr class="featurette-divider p-0">
+                <!-- features -->
+                <h1 id="features" class="text-primary text-center" style="padding-top:110px;margin-top:-40px;margin-bottom:40px">FEATURES</h1>
                 <div class="container">
                     <div class="row featurette my-5 py-3">
                         <div class="col-md-7">
@@ -138,9 +139,9 @@
                     </div>
                 </div>
                 <!--divider-->
-                <hr class="featurette-divider my-5">
-            </div>
-                <h1 class="text-primary m-5 text-center">TEAM</h1>
+                <hr class="featurette-divider p-0">
+                <!-- team -->
+                <h1 id="team" class="text-primary text-center" style="padding-top:110px;margin-top:-40px;margin-bottom:40px">TEAM</h1>
                 <div class="row bg-white">
                     <!-- /.col-lg-1 -->
                     <div class="col-lg-1">
@@ -169,8 +170,8 @@
                 </div>
                 <!--divider-->
                 <hr class="featurette-divider mt-5 mb-4">
+            </div>
         </main>
-        
         <!-- footer -->
         <footer>
             <div class="container">
@@ -178,9 +179,5 @@
                 <p class="text-tertiary m-2">© 2018 Pando Nutrition, Inc.</p>
             </div>
         </footer>
-
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>
