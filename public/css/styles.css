@@ -1,14 +1,21 @@
 body {
-  font-family: 'museo-sans', sans-serif !important; }
+  font-family: 'museo-sans', sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important; }
 
 h1 {
-  font-weight: 900; }
+  font-weight: 900 !important; }
 
 h2 {
-  font-weight: 900; }
+  font-weight: 900 !important; }
+
+h3 {
+  font-weight: 700 !important;
+  font-size: 1.25rem !important; }
 
 p {
-  font-weight: 100; }
+  font-weight: 100 !important;
+  font-size: 1.125rem !important; }
 
 .bwimage {
   -webkit-filter: grayscale(100%);
@@ -16,17 +23,24 @@ p {
   filter: grayscale(100%); }
 
 .btn {
-  font-family: "museo"; }
+  font-family: "museo" !important;
+  border-width: 2px !important; }
+
+.btn-lg, .btn-group-lg > .btn {
+  font-family: "museo" !important;
+  border-width: 2px !important; }
 
 .bg-cover {
-  background: url("../assets/images/pexels-photo-422218-crop1-bw2-teal-darker.jpg") no-repeat center center;
-  background-size: cover;
-  background-color: #ffffffaa; }
+  background: url("../assets/images/calves-mirrored-teal2.png") no-repeat center center !important;
+  background-size: cover !important; }
+
+.h-500 {
+  height: 500px; }
 
 .icon-circle {
   margin: auto;
-  width: 175px;
-  height: 175px;
+  width: 165px;
+  height: 165px;
   line-height: 175px; }
 
 .img-special {
@@ -35,6 +49,27 @@ p {
   max-height: 300px;
   width: auto;
   height: auto; }
+
+.navbar-toggler {
+  color: #736D6D !important;
+  border: none !important; }
+
+.nav-link {
+  letter-spacing: .05em !important;
+  font-weight: 900 !important; }
+
+.pt-6 {
+  padding-top: 110px; }
+
+.scroll-header {
+  padding-top: 110px;
+  margin-top: -40px;
+  margin-bottom: 40px; }
+
+.vertical-center {
+  height: 100%;
+  width: 100%;
+  text-align: center; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

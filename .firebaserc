@@ -1,5 +1,6 @@
 {
   "projects": {
-    "production": "pandonutrition-130e5"
+    "production": "pandonutrition-130e5",
+    "default": "pandonutrition-130e5"
   }
 }
